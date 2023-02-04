@@ -49,17 +49,19 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-/*=========== Header =============== */
-.header {
+/*=========== Header-fixed =============== */
+.fixed-header {
     background: #e6f0ff;
-    height: 100vh;
-    position: relative;
+    padding-top: 28px;
+    position: sticky;
+    top: -28px;
+    z-index: 1;
 }
 
 .nav-bar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 10px 0;
 }
 
 .nav-bar ul {
@@ -94,9 +96,15 @@ a {
     border-radius: 8px;
 }
 
-/* ================== hero =============== */
+/* ================== header-hero =============== */
+.header-hero {
+    background: #e6f0ff;
+    height: calc(100vh - 88px);
+    position: relative;
+}
+
 .hero {
-    margin-top: 130px;
+    padding-top: 120px;
 }
 
 .hero .info {
