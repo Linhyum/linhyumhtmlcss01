@@ -101,9 +101,6 @@ a {
     background: #e6f0ff;
     height: calc(100vh - 88px);
     position: relative;
-}
-
-.hero {
     padding-top: 120px;
 }
 
