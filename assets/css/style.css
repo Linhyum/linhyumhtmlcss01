@@ -104,12 +104,11 @@ a {
     height: calc(100vh - 88px);
     position: relative;
 }
-
 .header-hero .content {
     height: 100%;
 }
 
-.hero{
+.hero {
     display: flex;
     align-items: center;
     height: 100%;
@@ -657,7 +656,7 @@ a {
 }
 
 .footer .row:last-child {
-    margin-top: 81px;
+    margin-top: 80px;
     align-items: center;
 }
 
